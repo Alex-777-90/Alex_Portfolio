@@ -326,21 +326,11 @@ body{
 
 
  /* media query do boas vindas ----- */
- @media(max-width: 787px) {
 
-  .boas-vindas img {
-    width:170px;
-
+ .boas-vindas{
+    margin-top: 55px;
   }
-  
-  .boas-vindas p{
-    font-size: 150%;
-    margin-left: -40px;
-   
-  }
-
- }
-
+ 
  @media(max-width: 787px) {
 
   .boas-vindas img {
@@ -562,6 +552,17 @@ body{
 
 }
 /*  media query do footer -----*/
+
+@media(max-width:475px){
+
+  .text-sobre p {
+    font-size: 80%;
+  }
+  .text-sobre span {
+    font-size: 80%;
+
+  }
+}
 
 @media(max-width:399px){
 
