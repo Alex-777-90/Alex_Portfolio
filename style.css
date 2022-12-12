@@ -229,9 +229,44 @@ body{
   border-radius: 40px;
   width: 700px;
   padding: 43px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .icons-tech img {
-  width: 110px;
+  /* width: 110px; */
+  width: 100px;
+}
+
+.icons-tech2 {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.icons-tech  p {
+  position: absolute;
+  width: 100%;
+  background-color: rgb(21, 223, 216);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  text-align: center;
+  color: rgb(3, 85, 85);
+  font-weight: 600;
+}
+
+
+.icons-tech2:hover .paragraf1,
+.icons-tech2:hover .paragraf2,
+.icons-tech2:hover .paragraf3,
+.icons-tech2:hover .paragraf4 ,
+.icons-tech2:hover .paragraf5,
+.icons-tech2:hover .paragraf6,
+.icons-tech2:hover .paragraf7,
+.icons-tech2:hover .paragraf8 {
+    bottom: 10px;
+    opacity: 1;
+    padding: 10px;
 }
 
 .tech-image{
