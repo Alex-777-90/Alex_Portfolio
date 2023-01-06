@@ -1,3 +1,4 @@
+window.addEventListener("load",()=>{
 
 const formTheme = document.querySelector("#formTheme")
 const whiteColor = document.querySelector("#white")
@@ -55,5 +56,7 @@ formTheme.addEventListener("input",(e) => {
             text.style.color="";
         })
     }
+
+});
 
 });
