@@ -64,6 +64,26 @@ body{
 
 }
 
+.divTheme {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  background-color: rgb(19, 87, 19);
+  color:white; 
+  gap: 10px;
+ 
+}
+
+.divTheme label {
+  cursor: pointer;
+}
+input[type="radio"] {
+  background-color:rgb(19, 87, 19);
+  display: none;
+  
+}
+
+
 
 .boas-vindas{
   display: flex;
@@ -414,6 +434,10 @@ body{
  
  @media(max-width: 787px) {
 
+  .boas-vindas {
+    margin-top: -70px;
+  }
+
   .boas-vindas img {
     width:130px;
 
@@ -423,6 +447,9 @@ body{
     font-size: 120%;
     margin-left: -20px;
     
+  }
+  .divTheme {
+    margin-top: 100px;
   }
 
  }
