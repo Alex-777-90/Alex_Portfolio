@@ -6,7 +6,7 @@ const greenColor = document.querySelector("#green")
 
 
 
-formTheme.addEventListener("input",(e) => {
+formTheme.addEventListener("click",(e) => {
 
     const body = document.querySelector("body");
     const divTheme = document.querySelector(".divTheme");
