@@ -115,6 +115,8 @@ input[type="radio"] {
 }
 
 .about{
+  margin: 0 auto;
+  max-width: 1320px;
   margin-top: 70px;
   display: flex;
   align-items: center;
@@ -193,8 +195,11 @@ input[type="radio"] {
  }
 
 .video {
+  margin: 0 auto;
+  max-width: 1320px;
   margin-top: 40px;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -212,11 +217,11 @@ input[type="radio"] {
   padding-bottom: 20px;
 }
 .play-video video {
-  margin-top: -90px;
   width: 500px;
-  height: 500px;
+  height: 300px;
   border-radius: 20px;
-
+  object-fit:cover;
+  margin-bottom: 40px;
 }
 
 .tech-use img{
@@ -233,6 +238,8 @@ input[type="radio"] {
 }
 
 .tech{
+  margin: 0 auto;
+  max-width: 1320px;
   margin-top: 10px;
   display: flex;
   width: 100%;
@@ -691,118 +698,3 @@ input[type="radio"] {
   }
 }
 
-@media (min-width: 1770px) and (max-width:7000px) {
-
-  .cabecalho{
-    height: 90px;
-  }
-  
-  .links a {
-    padding-left: 45px;
-    font-size: 150%;
-  }
-  
-  .about-image{
-    width: 400px;
-   
-   
-  }
-  .about-image img{
-    margin-top: -100px;
-    width: 100%;
-
-   
-  }
-  .text-sobre{
-    width: 60%;
-   padding: 10px;
-    /* width: 500px; */
-   
-  }
-  .text-sobre span {
-
-    font-size: 30px;
-    font-weight: 600;
-   
-  }
-  .text-sobre strong{
-    font-size: 140%;
-  }
-  .text-sobre p {
-    font-size: 170%;
-  }
-  
-  .redes-sociais-icons{
-
-    width: 160px;
-    height: 70px;
-  
-  }
-  
-  .redes-sociais-icons a {
-    width: 70%;
-  
-  }
-  
-  .redes-sociais-icons a i{
-    margin-top: 50px;
-    font-size: 400%;
-    
-  }
-  
-
-  .video {
-    margin-top: 40px;
-    padding-top: 30px;
- 
-  }
-  
-  .play-video p {
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .play-video video {
-    margin-top: -90px;
-    width: 900px;
-    height: 710px;
-   
-  }
-  
-  .icons-tech {
-    border-radius: 40px;
-    width: 1000px;
-    padding: 43px;
-  }
-
-  .contato{
-    margin-top: 30px;
-    padding: 40px;
-    height: 250px;
-   
-  }
-  
-  .contact-infos p {
-    font-size: 170%;
-  }
-  
-  .contact-infos a {
-    font-weight: 600;
-  }
-  
-  
-  #whatsapp a i{
-    font-size: 600%;
-
-  }
-
-  .rodape{
-    height: 200px;
-    padding-top: 35px;
-    padding-bottom: 20px;
-  }
-  .rodape p{
-    font-size: 200%;
-  }
-
-}
