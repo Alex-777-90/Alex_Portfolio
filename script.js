@@ -60,3 +60,18 @@ formTheme.addEventListener("click",(e) => {
 });
 
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const translatableElements = document.querySelectorAll(".translatable");
+
+    function setLanguage(lang) {
+      translatableElements.forEach(el => {
+        const translation = el.getAttribute(`data-${lang}`);
+        if (translation) el.innerText = translation;
+      });
+    }
+
+    // Clique nas bandeiras
+    document.querySelector('img[alt="bandeira Brasil"]').addEventListener("click", () => setLanguage("pt"));
+    document.querySelector('img[alt="bandeira USA"]').addEventListener("click", () => setLanguage("en"));
+  });

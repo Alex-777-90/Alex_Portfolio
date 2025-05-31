@@ -24,6 +24,23 @@ body{
   
 }
 
+.name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flags {
+  display: flex;
+  gap: 5px;
+}
+
+.flags img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
 .name h1{
   margin-left: 20px;
 }
